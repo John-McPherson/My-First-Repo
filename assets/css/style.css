@@ -1,4 +1,9 @@
-/* @import url("https://use.typekit.net/ppc1adw.css") */
+@import url("https://use.typekit.net/ppc1adw.css")
+:root{
+    --header-bg:#fff;
+    --dark-gray:#474A5B;
+    --light-gray:#D1D1D1;
+}
 *{
     margin:0;
     padding:0;
@@ -6,14 +11,16 @@
 body{
     font-family:Madawaska, serif;
     font-weight: 400;
+    color:var(--dark-gray, black);
 }
 header > h1{
     font-family:bio-sans, sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size:250%;
     float:left;
-    padding: 10px 0 0 30px;
+    padding: 0 0 0 30px;
     text-transform: uppercase;    
+    color:var(--dark-gray, black);
 }
 nav li{
     list-style: none;
@@ -26,8 +33,12 @@ nav a {
     text-decoration: none;
     padding-left:15px;
     letter-spacing: 5px;
+    color:var(--dark-gray, black);
 }
 nav{
     padding-right:15px;
 }
-
+header{
+    background-color: var(--header-bg,white);
+    
+}
