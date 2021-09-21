@@ -1,7 +1,9 @@
 /* @import url("https://use.typekit.net/ppc1adw.css") */
-
+*{
+    margin:0;
+    padding:0;
+}
 body{
     font-family:Madawaska, serif;
     font-weight: 400;
-    color:red;
 }
