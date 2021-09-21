@@ -51,3 +51,18 @@ header{
 #header, #menu{
     line-height: 75px;
 }
+
+/* about section */
+
+#about{
+    clear:both;
+    background-color: var(--dark-gray,black);
+    color:var(--light-gray,gray);
+    height:900px;
+}
+#about > h2{
+    font-family:font-family:bio-sans, sans-serif;
+    font-size:200%;
+    font-weight:700;
+    
+}
