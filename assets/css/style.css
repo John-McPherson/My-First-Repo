@@ -58,7 +58,7 @@ header{
     clear:both;
     background-color: var(--dark-gray,black);
     height: 400px;
-    margin: 0 10% 0 10%;
+    margin: 10% 10% 0 10%;
  
     
 }
@@ -72,7 +72,7 @@ header{
 #about h2{
     font-family:bio-sans, sans-serif;
     font-size:200%;
-    font-weight:700;
+    font-weight:900;
     color:var(--header-bg, white);
     padding-bottom: 3%;
 }
@@ -99,7 +99,7 @@ header{
 #work >h2 {
     font-family:bio-sans, sans-serif;
     font-size:200%;
-    font-weight:700;
+    font-weight:900;
     padding-bottom: 3%;
     color: var(--dark-gray, #474a5b, black);
 }
