@@ -70,7 +70,7 @@ header{
 
 }
 #about h2{
-    font-family:font-family:bio-sans, sans-serif;
+    font-family:bio-sans, sans-serif;
     font-size:200%;
     font-weight:700;
     color:var(--header-bg, white);
@@ -94,7 +94,14 @@ header{
 #work{
     clear: both;
     text-align: center;
-    margin:0 10% 0 10%;
+    margin:5% 10% 0 10%;
+}
+#work >h2 {
+    font-family:bio-sans, sans-serif;
+    font-size:200%;
+    font-weight:700;
+    padding-bottom: 3%;
+    color: var(--dark-gray, #474a5b, black);
 }
 #cover-gallery > div{
     width:25%;
@@ -107,4 +114,12 @@ header{
 #cover-gallery img{
     width:100%;
     border:10px solid white;
+}
+#cover-gallery a{
+    text-decoration: none;
+    color:var(--dark-gray);
+    font-size: 20px;
+}
+#cover-gallery a:hover{
+    color:var(--hover-red, red);
 }
