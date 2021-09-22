@@ -76,3 +76,14 @@ header{
 #about p{
     color:var(--light-gray,gray);
 }
+
+#about-image{
+    float:right;
+    width:40%;
+}
+#about-image > img{
+    width:100%;
+    padding:5% 10% 0 0;
+    position: relative;
+    bottom:0;
+}
