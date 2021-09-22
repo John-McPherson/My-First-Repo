@@ -57,8 +57,10 @@ header{
 #about{
     clear:both;
     background-color: var(--dark-gray,black);
-    height:900px;
+    height: 400px;
     margin: 0 10% 0 10%;
+    position: relative;
+    
 }
 #about-text{
     float:left;
@@ -76,14 +78,14 @@ header{
 #about p{
     color:var(--light-gray,gray);
 }
-
-#about-image{
+#about-image-container{
     float:right;
     width:40%;
 }
+#about-image{
+    height: 400px;
+}
 #about-image > img{
-    width:100%;
-    padding:5% 10% 0 0;
-    position: relative;
-    bottom:0;
+    max-height: 100%;
+
 }
