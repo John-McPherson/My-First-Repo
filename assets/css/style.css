@@ -89,3 +89,22 @@ header{
 #about-image > img{
     max-height: 100%;
 }
+
+/* Work Section */
+#work{
+    clear: both;
+    text-align: center;
+    margin:0 10% 0 10%;
+}
+#cover-gallery > div{
+    width:25%;
+    float:left;
+    height:300px;
+    box-sizing: border-box;
+    padding:1%;
+    
+}
+#cover-gallery img{
+    width:100%;
+    border:10px solid white;
+}
