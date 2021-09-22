@@ -1,10 +1,10 @@
-@import url("https://use.typekit.net/ppc1adw.css")
-:root{
-    --header-bg:#fff;
-    --dark-gray:#474A5B;
-    --light-gray:#D1D1D1;
-    --hover-red:#C11F25;
+:root {
+    --header-bg: #fff;
+    --dark-gray: rgb(71,74,91);
+    --light-gray: #474a5b;
+    --hover-red: #C11F25;
 }
+
 *{
     margin:0;
     padding:0;
@@ -12,19 +12,19 @@
 body{
     font-family:Madawaska, serif;
     font-weight: 400;
-    color:var(--dark-gray, black);
+    color:var(--dark-gray, #474a5b, black);
 }
 
 /* heading and nav bar */
 
 header > h1{
     font-family:bio-sans, sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-size:300%;
     float:left;
     padding: 0 0 0 30px;
     text-transform: uppercase;    
-    color:var(--dark-gray, black);
+    color: var(--dark-gray, #474a5b, black);
 }
 nav li{
     list-style: none;
