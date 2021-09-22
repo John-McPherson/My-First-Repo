@@ -47,6 +47,10 @@ nav{
 }
 header{
     background-color: var(--header-bg,white);
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 #header, #menu{
     line-height: 75px;
