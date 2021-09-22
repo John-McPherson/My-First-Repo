@@ -1,7 +1,7 @@
 :root {
     --header-bg: #fff;
     --dark-gray: rgb(71,74,91);
-    --light-gray: #474a5b;
+    --light-gray: #D1D1D1;
     --hover-red: #C11F25;
 }
 
@@ -57,12 +57,22 @@ header{
 #about{
     clear:both;
     background-color: var(--dark-gray,black);
-    color:var(--light-gray,gray);
     height:900px;
+    margin: 0 10% 0 10%;
 }
-#about > h2{
+#about-text{
+    float:left;
+    width:40%;
+    text-align: center;
+    padding:5%;
+}
+#about h2{
     font-family:font-family:bio-sans, sans-serif;
     font-size:200%;
     font-weight:700;
-    
+    color:var(--header-bg, white);
+    padding-bottom: 3%;
+}
+#about p{
+    color:var(--light-gray,gray);
 }
