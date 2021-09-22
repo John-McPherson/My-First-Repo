@@ -123,3 +123,8 @@ header{
 #cover-gallery a:hover{
     color:var(--hover-red, red);
 }
+
+#cover-gallery img:hover{
+    border: 10px solid var(--dark-gray, black);
+    border-radius: 25px;
+}
