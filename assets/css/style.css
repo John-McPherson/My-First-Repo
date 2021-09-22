@@ -59,14 +59,15 @@ header{
     background-color: var(--dark-gray,black);
     height: 400px;
     margin: 0 10% 0 10%;
-    position: relative;
+ 
     
 }
 #about-text{
     float:left;
     width:40%;
     text-align: center;
-    padding:5%;
+    padding:10%;
+
 }
 #about h2{
     font-family:font-family:bio-sans, sans-serif;
@@ -87,5 +88,4 @@ header{
 }
 #about-image > img{
     max-height: 100%;
-
 }
