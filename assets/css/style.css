@@ -16,19 +16,32 @@ body{
 }
 
 /* heading and nav bar */
+header {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--header-bg,white);
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 
+}
 header > h1{
     font-family:bio-sans, sans-serif;
     font-weight: 700;
     font-size:300%;
-    float:left;
     padding: 0 0 0 30px;
     text-transform: uppercase;    
     color: var(--dark-gray, #474a5b, black);
 }
+nav > ul{ 
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
 nav li{
     list-style: none;
-    float:right;
     font-size:100%;
     font-family:bio-sans, sans-serif;
     font-weight: 400;
@@ -44,14 +57,10 @@ nav a:hover{
 }
 nav{
     padding-right:15px;
+    align-self: flex-end;
+
 }
-header{
-    background-color: var(--header-bg,white);
-    width:100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
+
 #header, #menu{
     line-height: 75px;
 }
