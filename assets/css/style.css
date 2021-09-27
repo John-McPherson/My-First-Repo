@@ -8,6 +8,7 @@
 *{
     margin:0;
     padding:0;
+    
 }
 body{
     font-family:Madawaska, serif;
@@ -68,15 +69,13 @@ nav{
 /* about section */
 
 #about{
-    clear:both;
     background-color: var(--dark-gray,black);
     height: 400px;
     margin: 10% 10% 0 10%;
+    display:flex;
  
-    
 }
 #about-text{
-    float:left;
     width:40%;
     text-align: center;
     padding:10%;
@@ -93,7 +92,6 @@ nav{
     color:var(--light-gray,gray);
 }
 #about-image-container{
-    float:right;
     width:40%;
 }
 #about-image{
