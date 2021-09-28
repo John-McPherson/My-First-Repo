@@ -196,19 +196,20 @@ form > br{
 
 .portfolio{
     display: flex;
-    flex-flow: row wrap;
-    padding:5% 0 0 0;
+    flex-flow: row nowrap;
+    margin-top: 75px;
 }
-.sample-pages{
-    display: flex;
-    flex-flow: column nowrap;
+
+.portfolio > .sample-pages{
+    width:70%;
+    
 }
-.sample-pages >img{
-    flex: 3 1 0;
+.sample-pages > img{
+    width:100%;
 }
 .blurb{
-    flex-grow: 1;
-    width: 33%;
+    box-sizing:border-box;
+    width:30%;
     background-color: var(--dark-gray, #474a5b, black);
     height:100vh;
     position: fixed;
