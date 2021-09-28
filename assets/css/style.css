@@ -26,6 +26,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 
 }
 header > h1{
@@ -186,4 +187,36 @@ form > input[type=submit]{
 }
 form > br{
     padding:2%;
+}
+
+
+
+
+/* portfolio pages */
+
+.portfolio{
+    display: flex;
+    flex-flow: row wrap;
+    padding:5% 0 0 0;
+}
+.sample-pages{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.sample-pages >img{
+    flex: 3 1 0;
+}
+.blurb{
+    flex-grow: 1;
+    width: 33%;
+    background-color: var(--dark-gray, #474a5b, black);
+    height:100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding:7% 2em 0 2em;
+}
+
+.blurb h2, ul{
+    color:var(--header-bg, white);
 }
