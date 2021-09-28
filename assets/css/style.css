@@ -196,12 +196,15 @@ form > br{
 
 .portfolio{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     margin-top: 75px;
+    justify-content: flex-start;
 }
 
 .portfolio > .sample-pages{
-    width:70%;
+    width:66%;
+    display: flex;
+    flex-flow: column nowrap;
     
 }
 .sample-pages > img{
@@ -209,15 +212,51 @@ form > br{
 }
 .blurb{
     box-sizing:border-box;
-    width:30%;
+    width:34%;
     background-color: var(--dark-gray, #474a5b, black);
     height:100vh;
     position: fixed;
     top: 0;
-    right: 0;
+    right:0;
     padding:7% 2em 0 2em;
 }
-
-.blurb h2, ul{
+.blurb h2, p, ul{
+   
+}
+.blurb ul{
     color:var(--header-bg, white);
+    list-style: none;
+    margin-bottom: 2em;
+}
+.blurb h2{
+    font-family:bio-sans, sans-serif;
+    font-size:150%;
+    font-weight:900;
+    color:var(--header-bg, white);
+    padding: 1em 0;
+}
+.blurb > p {
+    color:var(--light-gray,gray);
+    padding:0 1.5em 1em 0;
+    
+}
+
+.blurb  a {
+    font-family:bio-sans, sans-serif;
+    font-weight:900;
+    text-decoration: none;
+    background-color:var(--light-gray);
+    padding:.25em 1em;
+    border-radius:5px;
+    color:var(--dark-gray);
+    border:3px solid white;
+    font-size: 1.5em;
+}
+.buy-link{
+    text-align: center;
+}
+.blurb  a:hover {
+    border:5px solid var(--hover-red);
+    color:var(--hover-red);
+    
 }
