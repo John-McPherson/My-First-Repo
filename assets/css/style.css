@@ -71,7 +71,7 @@ nav{
 #about{
     background-color: var(--dark-gray,black);
     height: 400px;
-    margin: 10% 10% 0 10%;
+    margin: 10%;
     display:flex;
  
 }
@@ -103,9 +103,8 @@ nav{
 
 /* Work Section */
 #work{
-    clear: both;
     text-align: center;
-    margin:5% 10% 0 10%;
+    margin:5% 10% 10% 10%;
 }
 #work >h2 {
     font-family:bio-sans, sans-serif;
@@ -114,9 +113,13 @@ nav{
     padding-bottom: 3%;
     color: var(--dark-gray, #474a5b, black);
 }
+.gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 #cover-gallery > div{
     width:25%;
-    float:left;
     height:300px;
     box-sizing: border-box;
     padding:1%;
@@ -125,6 +128,7 @@ nav{
 #cover-gallery img{
     width:100%;
     border:10px solid white;
+    border-radius: 20px;
 }
 #cover-gallery a{
     text-decoration: none;
@@ -143,7 +147,6 @@ nav{
 /* newsletter  */
 
 #newsletter{
-    clear:both;
     width:100%;
     height: 200px;
     margin: 0 auto;
